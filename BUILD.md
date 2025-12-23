@@ -32,14 +32,16 @@ All dependencies need to be installed as development libraries. Some names may d
  - fuse
  - libarchive
  - libXpm
- - qt5
+ - qt6
  - libcurl
  - boost
+ - argagg
+ - xxd
 
 For Ubuntu/Debian systems, this might look like:
 
 ```bash
-sudo apt install make cmake libglib2.0-dev libcairo2-dev librsvg2-dev libfuse-dev libarchive-dev libxpm-dev libcurl4-openssl-dev libboost-all-dev qtbase5-dev qtdeclarative5-dev qttools5-dev-tools patchelf libc6-dev libc6-dev gcc-multilib g++-multilib
+sudo apt install make cmake libglib2.0-dev libcairo2-dev librsvg2-dev libfuse-dev libarchive-dev libxpm-dev libcurl4-openssl-dev libboost-all-dev qt6-base-dev qt6-declarative-dev qt6-tools-dev-tools patchelf libc6-dev libc6-dev gcc-multilib g++-multilib
 ```
 
 ## Build
